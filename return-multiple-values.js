@@ -3,4 +3,7 @@
 function returnMultipleValues () {
   return [1, 2]
 }
-var [foo, bar] = returnMultipleValues()
+const [foo, bar] = returnMultipleValues()
+
+// foo => 1
+// bar => 2
